@@ -2,6 +2,7 @@
 
 	* Add Extbase controller
 	* Fix error in French localization
+	* Disable popup window when alert is enabled
 
 2013-06-24  Stanislas Rolland  <typo3@sjbr.ca>
 

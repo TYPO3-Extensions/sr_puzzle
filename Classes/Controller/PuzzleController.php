@@ -97,7 +97,7 @@ class PuzzleController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControlle
 			$puzzle['width'] = $this->settings['pieceSize'] * $puzzle['nbPiecesHorizontal'];
 			$puzzle['height'] = $this->settings['pieceSize'] * $puzzle['nbPiecesVertical'];
 			$puzzleCropParameters = ' -crop ' . $puzzle['width'] . 'x'  . $puzzle['height'] . '+0+0';
-			$puzzle['imagePath'] = 'typo3temp/' . $this->extensionKey . '/puzzle_' . GeneralUtility::shortMD5('puzzle' . $image->getPublicUrl() . filemtime($image->getPublicUrl()) . $this->settings['pieceSize']);
+			$puzzle['imagePath'] = 'typo3temp/' . $this->extensionKey . '/puzzle_' . GeneralUtility::shortMD5('puzzle' . $scaledImage[3] . filemtime($scaledImage[3]) . $this->settings['pieceSize']);
 			if (!is_dir(PATH_site.'typo3temp/'.$this->extensionKey)) {
 				GeneralUtility::mkdir(PATH_site . 'typo3temp/' . $this->extensionKey);
 			}
@@ -173,10 +173,13 @@ class PuzzleController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControlle
 		}
 
 		// Set enabled links options
-		$this->settings['enablePopUp'] = (isset($this->settings['enablePopUp']) && intval($this->settings['congratulationsLink'])) ? intval($this->settings['enablePopUp']) : 1;
-		$this->settings['enableAlert'] = isset($this->settings['enableAlert']) ? intval($this->settings['enableAlert']) : 0;
-		$this->settings['enableLinkAfter'] = (isset($this->settings['enableLinkAfter']) && isset($this->settings['linkAfter'])) ? intval($this->settings['enableLinkAfter']) : 0;
+		$this->settings['enablePopUp'] = isset($this->settings['enablePopUp']) ? intval($this->settings['enablePopUp']) : 1;
 		$this->settings['congratulationsLink'] = ($this->settings['enablePopUp'] && intval($this->settings['congratulationsLink'])) ? intval($this->settings['congratulationsLink']) : 0;
+		$this->settings['enableAlert'] = isset($this->settings['enableAlert']) ? intval($this->settings['enableAlert']) : 0;
+		if (!intval($this->settings['congratulationsLink']) || $this->settings['enableAlert']) {
+			$this->settings['enablePopUp'] = 0;
+		}
+		$this->settings['enableLinkAfter'] = (isset($this->settings['enableLinkAfter']) && isset($this->settings['linkAfter'])) ? intval($this->settings['enableLinkAfter']) : 0;
 		$this->settings['linkAfter'] = ($this->settings['enableLinkAfter'] && intval($this->settings['linkAfter'])) ? intval($this->settings['linkAfter']) : 0;
 
 		// Set congratulations popup window dimensions and position
