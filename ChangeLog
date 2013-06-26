@@ -6,6 +6,7 @@
 	* Move initialization JavaScript to Fluid Partial
 	* Remove unused Redirect action
 	* Update to the manual
+	* Set version to 6.0.0
 
 2013-06-24  Stanislas Rolland  <typo3@sjbr.ca>
 
