@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2013-06-20T03:34:20Z" product-name="sr_puzzle">
+		<header/>
+		<body>
+			<trans-unit id="pi1_title" xml:space="preserve" approved="yes">
+				<source>Puzzle</source>
+				<target>Puzzle</target>
+			</trans-unit>
+			<trans-unit id="pi1_plus_wiz_description" xml:space="preserve" approved="yes">
+				<source>Adds a puzzle to the page</source>
+				<target>Fügt ein Puzzle auf der Seite ein.</target>
+			</trans-unit>
+			<trans-unit id="puzzle_image" xml:space="preserve" approved="yes">
+				<source>Puzzle image: </source>
+				<target>Puzzlebild: </target>
+			</trans-unit>
+			<trans-unit id="puzzle_instructions" xml:space="preserve" approved="yes">
+				<source>Use your mouse to drag the pieces and drop them in new positions.</source>
+				<target>Benutze die Maus um ein Puzzleteil aufzunehmen und lege es an der neuen Position ab.</target>
+			</trans-unit>
+			<trans-unit id="successMessage" xml:space="preserve" approved="yes">
+				<source>Congratulations!</source>
+				<target>Herzlichen Glückwunsch!</target>
+			</trans-unit>
+			<trans-unit id="image_not_found" xml:space="preserve" approved="yes">
+				<source>Sorry, the requested image file was not found: </source>
+				<target>Sorry, die angegebene Bilddatei konnte nicht gefunden werden.: </target>
+			</trans-unit>
+			<trans-unit id="browser_too_old" xml:space="preserve" approved="yes">
+				<source>Sorry, the puzzle requires a more recent browser.</source>
+				<target>Sorry, das Puzzle ist nicht mit Ihrem Browser kompatibel.</target>
+			</trans-unit>
+			<trans-unit id="settings.pieceSize" xml:space="preserve" approved="yes">
+				<source>Size of puzzle pieces:</source>
+				<target>Größe der Puzzleteile:</target>
+			</trans-unit>
+			<trans-unit id="settings.puzzleX" xml:space="preserve" approved="yes">
+				<source>Horizontal offset:</source>
+				<target>Horizontaler Rand:</target>
+			</trans-unit>
+			<trans-unit id="settings.puzzleY" xml:space="preserve" approved="yes">
+				<source>Vertical offset:</source>
+				<target>Vertikaler Rand:</target>
+			</trans-unit>
+			<trans-unit id="settings.congratulationsLink" xml:space="preserve" approved="yes">
+				<source>Open congratulations page:</source>
+				<target>Öffnet Seite zur Beglückwünschung:</target>
+			</trans-unit>
+			<trans-unit id="settings.linkAfter" xml:space="preserve" approved="yes">
+				<source>Go to this page upon success:</source>
+				<target>Öffnet Seite, wenn Puzzle erfolgreich gelöst:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

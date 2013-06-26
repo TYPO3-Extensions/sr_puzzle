@@ -1,0 +1,3 @@
+ # Include default styles for SrPuzzle
+
+page.includeCSS.tx_srpuzzle = EXT:sr_puzzle/Resources/Public/StyleSheets/SrPuzzle.css

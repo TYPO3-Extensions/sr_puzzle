@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2013-06-20T03:34:20Z" product-name="sr_puzzle">
+		<header/>
+		<body>
+			<trans-unit id="pi1_title" xml:space="preserve" approved="yes">
+				<source>Puzzle</source>
+				<target>Casse-tête</target>
+			</trans-unit>
+			<trans-unit id="pi1_plus_wiz_description" xml:space="preserve" approved="yes">
+				<source>Adds a puzzle to the page</source>
+				<target>Ajoute un casse-tête sur la page</target>
+			</trans-unit>
+			<trans-unit id="puzzle_image" xml:space="preserve" approved="yes">
+				<source>Puzzle image: </source>
+				<target>Image du casse-tête: </target>
+			</trans-unit>
+			<trans-unit id="puzzle_instructions" xml:space="preserve" approved="yes">
+				<source>Use the mouse or a finger to drag the pieces and drop them in new positions.</source>
+				<target>Utilisez la souris ou un doigt pour prendre les pièces et les changez de position.</target>
+			</trans-unit>
+			<trans-unit id="successMessage" xml:space="preserve" approved="yes">
+				<source>Congratulations!</source>
+				<target>Félicitations!</target>
+			</trans-unit>
+			<trans-unit id="image_not_found" xml:space="preserve" approved="yes">
+				<source>Sorry, the requested image file was not found: </source>
+				<target>Désolé, le fichier d'image demandé est introuvable: </target>
+			</trans-unit>
+			<trans-unit id="browser_too_old" xml:space="preserve" approved="yes">
+				<source>Sorry, the puzzle requires a more recent browser.</source>
+				<target>Désolé, le casse-tête requiert un navigateur plus récent.</target>
+			</trans-unit>
+			<trans-unit id="settings.puzzleWidth" xml:space="preserve">
+				<source>Puzzle width:</source>
+				<target>Largeur du casse-tête:</target>
+			</trans-unit>
+			<trans-unit id="settings.puzzleHeight" xml:space="preserve">
+				<source>Puzzle height:</source>
+				<target>Hauteur du casse-tête:</target>
+			</trans-unit>
+			<trans-unit id="settings.pieceSize" xml:space="preserve" approved="yes">
+				<source>Size of puzzle pieces:</source>
+				<target>Dimension des pièces:</target>
+			</trans-unit>
+			<trans-unit id="settings.puzzleX" xml:space="preserve" approved="yes">
+				<source>Horizontal offset:</source>
+				<target>Position horizontale:</target>
+			</trans-unit>
+			<trans-unit id="settings.puzzleY" xml:space="preserve" approved="yes">
+				<source>Vertical offset:</source>
+				<target>Position verticale:</target>
+			</trans-unit>
+			<trans-unit id="settings.congratulationsLink" xml:space="preserve" approved="yes">
+				<source>Open congratulations page:</source>
+				<target>Ouvrir une page de félicitations:</target>
+			</trans-unit>
+			<trans-unit id="settings.linkAfter" xml:space="preserve" approved="yes">
+				<source>Go to this page upon success:</source>
+				<target>Aller à cette page après solution:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

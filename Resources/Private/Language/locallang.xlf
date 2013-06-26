@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-06-20T03:34:20Z" product-name="sr_puzzle">
+		<header/>
+		<body>
+			<trans-unit id="pi1_title" xml:space="preserve">
+				<source>Puzzle</source>
+			</trans-unit>
+			<trans-unit id="pi1_plus_wiz_description" xml:space="preserve">
+				<source>Adds a puzzle to the page</source>
+			</trans-unit>
+			<trans-unit id="puzzle_image" xml:space="preserve">
+				<source>Puzzle image: </source>
+			</trans-unit>
+			<trans-unit id="puzzle_instructions" xml:space="preserve">
+				<source>Use the mouse or a finger to drag the pieces and drop them in new positions.</source>
+			</trans-unit>
+			<trans-unit id="successMessage" xml:space="preserve">
+				<source>Congratulations!</source>
+			</trans-unit>
+			<trans-unit id="image_not_found" xml:space="preserve">
+				<source>Sorry, the requested image file was not found: </source>
+			</trans-unit>
+			<trans-unit id="browser_too_old" xml:space="preserve">
+				<source>Sorry, the puzzle requires a more recent browser.</source>
+			</trans-unit>
+			<trans-unit id="settings.puzzleWidth" xml:space="preserve">
+				<source>Puzzle width:</source>
+			</trans-unit>
+			<trans-unit id="settings.puzzleHeight" xml:space="preserve">
+				<source>Puzzle height:</source>
+			</trans-unit>
+			<trans-unit id="settings.pieceSize" xml:space="preserve">
+				<source>Size of puzzle pieces:</source>
+			</trans-unit>
+			<trans-unit id="settings.puzzleX" xml:space="preserve">
+				<source>Horizontal offset:</source>
+			</trans-unit>
+			<trans-unit id="settings.puzzleY" xml:space="preserve">
+				<source>Vertical offset:</source>
+			</trans-unit>
+			<trans-unit id="settings.congratulationsLink" xml:space="preserve">
+				<source>Open congratulations page:</source>
+			</trans-unit>
+			<trans-unit id="settings.linkAfter" xml:space="preserve">
+				<source>Go to this page upon success:</source>
+			</trans-unit>
+			<trans-unit id="view.template" xml:space="preserve">
+				<source>Template</source>
+			</trans-unit>
+			<trans-unit id="view.templateRootPath" xml:space="preserve">
+				<source>Path to template root</source>
+			</trans-unit>
+			<trans-unit id="view.layoutRootPath" xml:space="preserve">
+				<source>Path to template layouts</source>
+			</trans-unit>
+			<trans-unit id="view.partialRootPath" xml:space="preserve">
+				<source>Path to template partials</source>
+			</trans-unit>
+			<trans-unit id="update.upgradeTo6" xml:space="preserve">
+				<source>Upgrade to version 6.0</source>
+			</trans-unit>
+			<trans-unit id="update.warning" xml:space="preserve">
+				<source>Warning!</source>
+			</trans-unit>
+			<trans-unit id="update.changesToDatabase" xml:space="preserve">
+				<source>This script will make changes to the database that will not work with versions of the extension lower than 6.0.</source>
+			</trans-unit>
+			<trans-unit id="update.update" xml:space="preserve">
+				<source>Update</source>
+			</trans-unit>
+			<trans-unit id="update.elementsUpdated" xml:space="preserve">
+				<source>%1$d puzzle elements were updated.</source>
+			</trans-unit>
+			<trans-unit id="update.templatesUpdated" xml:space="preserve">
+				<source>%1$d TypoScript templates were updated. Please verify the plugin configuration. You may need to move array _LOCAL_LANG from plugin.tx_srpuzzle.settings to plugin.tx_srpuzzle.</source>
+			</trans-unit>
+			<trans-unit id="update.pleaseRead" xml:space="preserve">
+				<source>Please read the manual for more information regarding the upgrade to version 6.0 of this extension.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,11 @@
+/* Default style sheet for SrMenu */
+.tx-srpuzzle {
+}
+.tx-srpuzzle-piece {
+	position: absolute;
+	z-index: 10;
+}
+.tx-srpuzzle div.tx-srpuzzle-instructions p {
+	text-align: center;
+}
+

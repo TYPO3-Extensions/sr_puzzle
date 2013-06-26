@@ -1,0 +1,44 @@
+plugin.tx_srpuzzle {
+
+    # cat=plugin.tx_srpuzzle/dims; type=int+; label= Puzzle absolute horizontal position: This is the absolute horizontal offset of the puzzle from the left side of the containing frame.
+   puzzleX = 250
+
+    # cat=plugin.tx_srpuzzle/dims; type=int+; label= Puzzle absolute vertical position: This is the absolute vertical offset of the puzzle from the top side of the containing frame.
+   puzzleY = 100
+
+    # cat=plugin.tx_srpuzzle/dims; type=int+; label= Puzzle solution width: This is the width of the small puzzle solution model. If both the puzzle solution width and height are equal to zero, then the solution width will default to 100.
+   solutionWidth = 100
+
+    # cat=plugin.tx_srpuzzle/dims; type=int+; label= Puzzle solution height: This is the height of the small puzzle solution model. If both the puzzle solution width and height are equal to zero, then the solution width will default to 100.
+   solutionHeight =
+
+    # cat=plugin.tx_srpuzzle/dims; type=int+; label= Congratulations window width: This is the width of the congratulations window that pops up when the puzzle is solved. See enablePopUp constant.
+   congratulationsWidth = 150
+
+    # cat=plugin.tx_srpuzzle/dims; type=int+; label= Congratulations window vertical offset: This is the offset from the top of the screen of the congratulations window that pops up when the puzzle is solved. See enablePopUp constant.
+   congratulationsVertOffset = 250
+
+    # cat=plugin.tx_srpuzzle/dims; type=int+; label= Congratulations window horizontal offset: This is the offset from the left of the screen of the congratulations window that pops up when the puzzle is solved. See enablePopUp constant.
+   congratulationsHorOffset = 250
+
+    # cat=plugin.tx_srpuzzle/dims; type=int+; label= Congratulations window height: This is the height of the congratulations window that pops up when the puzzle is solved. See enablePopUp constant.
+   congratulationsHeight = 150
+
+    # cat=plugin.tx_srpuzzle/enable; type=boolean; label= Enable congratulations pop-up window: If set, a pop-up window will be opened when the puzzle is solved. The page id is specified on the puzzle definition form.
+  enablePopUp=1
+
+    # cat=plugin.tx_srpuzzle/enable; type=boolean; label= Enable alert window: If set, a Javascript alert window will pop up when the puzzle is solved. The text of the message in defined by the label successMessage in pi1/locallang.php.
+  enableAlert=0
+
+    # cat=plugin.tx_srpuzzle/enable; type=boolean; label= Enable link after success: If set, the puzzle page will be replaced by a linked page when the puzzle is solved. The page id to link to is specified on the puzzle definition form.
+  enableLinkAfter=0
+
+    view {
+	 # cat=plugin.tx_srpuzzle/file; type=string; label=LLL:EXT:sr_puzzle/Resources/Private/Language/locallang.xlf:view.templateRootPath
+	templateRootPath = EXT:sr_puzzle/Resources/Private/Templates/
+	 # cat=plugin.tx_srpuzzle/file; type=string; label=LLL:EXT:sr_puzzle/Resources/Private/Language/locallang.xlf:view.partialRootPath
+	partialRootPath = EXT:sr_puzzle/Resources/Private/Partials/
+	 # cat=plugin.tx_srpuzzle/file; type=string; label=LLL:EXT:sr_puzzle/Resources/Private/Language/locallang.xlf:view.layoutRootPath
+	layoutRootPath = EXT:sr_puzzle/Resources/Private/Layouts/
+    }
+}

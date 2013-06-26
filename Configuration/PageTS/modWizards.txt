@@ -1,0 +1,9 @@
+mod.wizards.newContentElement.wizardItems.special.elements.srpuzzle_puzzle {
+	icon = EXT:sr_puzzle/Resources/Public/Images/puzzle.png
+	title = LLL:EXT:sr_puzzle/Resources/Private/Language/locallang.xlf:pi1_title
+	description = LLL:EXT:sr_puzzle/Resources/Private/Language/locallang.xlf:pi1_plus_wiz_description
+	tt_content_defValues {
+		CType = srpuzzle_puzzle
+	}
+}
+mod.wizards.newContentElement.wizardItems.special.show := addToList(srpuzzle_puzzle)

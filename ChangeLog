@@ -1,0 +1,19 @@
+2013-06-26  Stanislas Rolland  <typo3@sjbr.ca>
+
+	* Add Extbase controller
+
+2013-06-24  Stanislas Rolland  <typo3@sjbr.ca>
+
+	* Merge language files
+	* Add flexform
+	* Add update script
+
+2013-06-19  Stanislas Rolland  <typo3@sjbr.ca>
+
+	* Convert locallang files from xml to xlf
+	* Move locallang files to Resources directory
+	* Move default CSS styles to external style sheet
+	* Convert extension icon from gif to png
+	* Configure new element wizard in Page TSCongig
+	* Move JavaScript file to Resources directory
+	* Add Fluid template

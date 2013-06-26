@@ -1,0 +1,25 @@
+plugin.tx_srpuzzle {
+	settings {
+		templateFile = {$plugin.tx_srpuzzle.file.templateFile}
+		
+		puzzleX = {$plugin.tx_srpuzzle.puzzleX}
+		puzzleY = {$plugin.tx_srpuzzle.puzzleY}
+		
+		solutionWidth = {$plugin.tx_srpuzzle.solutionWidth}
+		solutionHeight = {$plugin.tx_srpuzzle.solutionHeight}
+		
+		congratulationsWidth = {$plugin.tx_srpuzzle.congratulationsWidth}
+		congratulationsHeight = {$plugin.tx_srpuzzle.congratulationsHeight}
+		congratulationsVertOffset = {$plugin.tx_srpuzzle.congratulationsVertOffset}
+		congratulationsHorOffset = {$plugin.tx_srpuzzle.congratulationsHorOffset}
+		
+		enablePopUp = {$plugin.tx_srpuzzle.enablePopUp}
+		enableAlert = {$plugin.tx_srpuzzle.enableAlert}
+		enableLinkAfter = {$plugin.tx_srpuzzle.enableLinkAfter}
+	}
+	view {
+		templateRootPath = {$plugin.tx_srpuzzle.view.templateRootPath}
+		partialRootPath = {$plugin.tx_srpuzzle.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_srpuzzle.view.layoutRootPath}
+	}
+}
