@@ -5,6 +5,7 @@
 	* Disable popup window when alert is enabled
 	* Move initialization JavaScript to Fluid Partial
 	* Remove unused Redirect action
+	* Update to the manual
 
 2013-06-24  Stanislas Rolland  <typo3@sjbr.ca>
 
