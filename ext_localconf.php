@@ -15,7 +15,7 @@ if (!defined('TYPO3_MODE')) {
 	// An array holding the controller-action-combinations that are accessible
 	// The first controller and its first action will be the default
 	array (
-		'Puzzle' => 'show,redirect',
+		'Puzzle' => 'show',
 	),
 	// An array of non-cachable controller-action-combinations (they must already be enabled)
 	array(
