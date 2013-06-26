@@ -1,6 +1,7 @@
 2013-06-26  Stanislas Rolland  <typo3@sjbr.ca>
 
 	* Add Extbase controller
+	* Fix error in French localization
 
 2013-06-24  Stanislas Rolland  <typo3@sjbr.ca>
 

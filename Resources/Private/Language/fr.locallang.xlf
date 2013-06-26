@@ -17,7 +17,7 @@
 			</trans-unit>
 			<trans-unit id="puzzle_instructions" xml:space="preserve" approved="yes">
 				<source>Use the mouse or a finger to drag the pieces and drop them in new positions.</source>
-				<target>Utilisez la souris ou un doigt pour prendre les pièces et les changez de position.</target>
+				<target>Utilisez la souris ou un doigt pour prendre les pièces et les changer de position.</target>
 			</trans-unit>
 			<trans-unit id="successMessage" xml:space="preserve" approved="yes">
 				<source>Congratulations!</source>
