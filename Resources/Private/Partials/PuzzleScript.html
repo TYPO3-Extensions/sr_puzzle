@@ -1,0 +1,61 @@
+<f:comment>
+Renders Puzzle initialization JavaScript
+</f:comment>
+			<script type="text/javascript">
+				// We initialise the puzzle variables
+				// Puzzle absolute coordinates
+				sr_puzzleX = {settings.puzzleX};
+				sr_puzzleY = {settings.puzzleY};
+				// Popup window dimensions
+				sr_puzzle_popUpWidth = {settings.congratulationsWidth};
+				sr_puzzle_popUpHeight = {settings.congratulationsHeight};
+				sr_puzzle_screenX = {settings.congratulationsHorOffset};
+				sr_puzzle_screenY = {settings.congratulationsVertOffset};
+				// Enabling success options
+				sr_puzzle_enablePopUp = {settings.enablePopUp};
+				sr_puzzle_enableAlert = {settings.enableAlert};
+				sr_puzzle_enableLinkAfter = {settings.enableLinkAfter};
+				// The alert success message
+				sr_puzzle_successMessage = '{f:translate(key: "successMessage")}';
+				// The height of a piece (and its width, as it is square)
+				sr_puzzle_pSize = {settings.pieceSize};
+				// Number of pieces per column and per line
+				sr_puzzle_nbX = {puzzle.nbPiecesVertical};
+				sr_puzzle_nbY = {puzzle.nbPiecesHorizontal};
+				sr_puzzle_linkPopUp = '{f:uri.page(pageUid: "{settings.congratulationsLink}")}';
+				sr_puzzle_linkAfter = '{f:uri.page(pageUid: "{settings.linkAfter}")}';
+				var sr_puzzle_imageSrc = '{f:uri.image(src: "{puzzle.firstPiece}")}';
+				var sr_puzzle_imageExtension = '{puzzle.imageExtension}';
+				/*<![CDATA[*/
+				<!--
+				sr_puzzle_init();
+				sr_puzzle_arr = new Array();
+				sr_puzzle_create();
+				// We now display the puzzle (shuffled)
+				var tx_srpuzzle_pi1_div = document.getElementById('tx-srpuzzle');
+				var sr_puzzle_x = sr_puzzleX,
+					sr_puzzle_y = sr_puzzleY,
+					sr_puzzle_nb;
+				for (var i = 1; i <= sr_puzzle_nbX; i++) {
+					for (var j = 1; j <= sr_puzzle_nbY; j++) {
+						sr_puzzle_nb = i + '' + j;
+						var sr_puzzle_piece = document.createElement('div');
+						sr_puzzle_piece.className = 'tx-srpuzzle-piece';
+						sr_puzzle_piece.id = 'P' + sr_puzzle_arr[sr_puzzle_nb];
+						var sr_puzzle_image = document.createElement('img');
+						sr_puzzle_image.src = sr_puzzle_imageSrc.replace('1.' + sr_puzzle_imageExtension, sr_puzzle_arr[sr_puzzle_nb] + '.' + sr_puzzle_imageExtension);
+						sr_puzzle_image.id = sr_puzzle_arr[sr_puzzle_nb];
+						sr_puzzle_image.width = sr_puzzle_pSize;
+						sr_puzzle_image.height = sr_puzzle_pSize;
+						sr_puzzle_piece.appendChild(sr_puzzle_image);
+						tx_srpuzzle_pi1_div.appendChild(sr_puzzle_piece);
+						sr_puzzle_piece.style.left = sr_puzzle_x + 'px';
+						sr_puzzle_piece.style.top = sr_puzzle_y + 'px';
+						sr_puzzle_x += sr_puzzle_pSize;
+					}
+					sr_puzzle_y += sr_puzzle_pSize;
+					sr_puzzle_x = sr_puzzleX;
+				}
+				// -->
+				/*]]>*/
+			</script>
