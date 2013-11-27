@@ -3,7 +3,7 @@
 /***************************************************************
  * Extension Manager/Repository config file for ext "sr_puzzle".
  *
- * Auto generated 26-06-2013 13:28
+ * Auto generated 27-11-2013 16:36
  *
  * Manual updates:
  * Only the data in the array - everything else is removed by next
@@ -30,7 +30,7 @@ $EM_CONF[$_EXTKEY] = array (
 	'author_company' => 'SJBR',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
-	'version' => '6.0.0',
+	'version' => '6.0.1',
 	'_md5_values_when_last_written' => '',
 	'constraints' => 
 	array (
