@@ -1,3 +1,7 @@
+2013-11-27  Stanislas Rolland  <typo3@sjbr.ca>
+
+	* Enable in TYPO3 6.2
+
 2013-06-26  Stanislas Rolland  <typo3@sjbr.ca>
 
 	* Add Extbase controller
